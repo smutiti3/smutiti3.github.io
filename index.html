@@ -15,11 +15,34 @@ h2 {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+input[type=text] {
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+}
+
+.box{
+  background: gray;
+  float: left;
+  width: 250px;
+  padding: 3px;
+  margin: 3px;
+}
+
 </style>
 </head>
 <body>
 <h2>Welcome to the</h2>
 <h1>MIKE(LE)</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div id="red-wrapper">
+    <div class=""></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  <div id="guessbox">
+      <p>Enter your guess here</p>
+      <input type="text" id="guess" name="guess">
+  </div>
 </body>
 </html>
